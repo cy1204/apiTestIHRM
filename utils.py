@@ -1,3 +1,6 @@
+"""
+公共方法类
+"""
 import app, json, pymysql
 
 
