@@ -32,11 +32,11 @@ class TestEmp(unittest.TestCase):
         json_data = response.json()
         logging.info("添加员工接口返回的数据为：{}".format(json_data))
 
-        # 断言
-        assert_common(self, response, http_code, success, code, message)
-
         # 获取员工ID保存在全局变量
         app.EMP_ID = json_data.get("data").get("id")
+
+        # 断言
+        assert_common(self, response, http_code, success, code, message)
 
     @parameterized.expand(read_query_emp_data())
     def test02_query_emp(self, success, code, message, http_code):
