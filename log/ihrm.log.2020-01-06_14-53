@@ -1,0 +1,4 @@
+2020-01-06 14:53:19,434 INFO [root] [__init__.py(<module>:5)] - TEST日志能不能正常工作
+2020-01-06 14:53:19,795 INFO [root] [login.py(test_login_success:30)] - 登录接口返回的数据为：{'success': True, 'data': 'a8119f56-821c-41f0-b2d6-b99f36a266c7', 'message': '操作成功！', 'code': 10000}
+2020-01-06 14:53:19,796 INFO [root] [login.py(test_login_success:45)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer a8119f56-821c-41f0-b2d6-b99f36a266c7'}
+2020-01-06 14:53:19,874 INFO [root] [test_emp.py(test01_add_emp:32)] - 添加员工接口返回的数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}

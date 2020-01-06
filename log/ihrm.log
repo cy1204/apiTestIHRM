@@ -1,0 +1,8 @@
+2020-01-06 18:43:12,653 INFO [root] [__init__.py(<module>:5)] - TEST日志能不能正常工作
+2020-01-06 18:43:13,082 INFO [root] [login.py(test_login_success:30)] - 登录接口返回的数据为：{'code': 10000, 'data': 'c490204c-b067-48ff-a34e-26bfe567336b', 'success': True, 'message': '操作成功！'}
+2020-01-06 18:43:13,083 INFO [root] [login.py(test_login_success:45)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer c490204c-b067-48ff-a34e-26bfe567336b'}
+2020-01-06 18:43:13,156 INFO [root] [test_emp.py(test01_add_emp:33)] - 添加员工接口返回的数据为：{'code': 10000, 'data': {'id': '1214135323705298944'}, 'success': True, 'message': '操作成功！'}
+2020-01-06 18:43:13,228 INFO [root] [test_emp.py(test02_query_emp:46)] - 查询员工接口返回的数据为：{'code': 10000, 'data': {'mobile': '18744553999', 'correctionTime': '2019-12-15T16:00:00.000+0000', 'companyName': '传智播客', 'departmentName': '测试', 'workNumber': '1234', 'staffPhoto': None, 'departmentId': '1210411411066695680', 'workingCity': None, 'formOfManagement': None, 'enableState': 1, 'companyId': '1', 'username': 'aaaaaaa', 'password': '3a605401ddde2a5b7769583542f1acd0', 'inServiceStatus': None, 'id': '1214135323705298944', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'formOfEmployment': 1, 'roleIds': [], 'createTime': None}, 'success': True, 'message': '操作成功！'}
+2020-01-06 18:43:13,306 INFO [root] [test_emp.py(test03_modify_emp:56)] - 修改员工接口返回的数据为：{'code': 10000, 'data': {'id': '1214135323705298944'}, 'success': True, 'message': '操作成功！'}
+2020-01-06 18:43:13,509 INFO [root] [test_emp.py(test03_modify_emp:63)] - 从数据库中查询出的员工的用户名是：qwert
+2020-01-06 18:43:13,595 INFO [root] [test_emp.py(test04_delete_emp:73)] - 删除员工接口返回的数据为：{'code': 10000, 'data': None, 'success': True, 'message': '操作成功！'}
